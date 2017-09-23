@@ -1,0 +1,37 @@
+{
+  "name": "backtory/laravel-backtory-storage",
+  "description": "Backtory Storage Driver for Laravel framework",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "backtory",
+    "backtory-sdk",
+    "backtory-storage",
+    "cloud-storage",
+    "cloud",
+    "storage",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Abbas Moazzami",
+      "email": "www.abbas.mg@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Backtory\\Storage\\Laravel\\": "src/"
+    }
+  },
+  "require": {
+    "laravel/framework": "5.5.*",
+    "backtory/storage-php": "1.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Backtory\\Storage\\Laravel\\BacktoryStorageServiceProvider"
+      ]
+    }
+  }
+}
