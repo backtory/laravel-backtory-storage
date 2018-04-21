@@ -24,7 +24,6 @@
     }
   },
   "require": {
-    "laravel/framework": "5.5.*",
     "backtory/storage-php": "dev-master"
   },
   "extra": {
