@@ -25,7 +25,7 @@ class BacktoryStorageServiceProvider extends ServiceProvider
             BacktoryStorage::init(
                 $config[Keys::X_BACKTORY_AUTHENTICATION_ID],
                 $config[Keys::X_BACKTORY_AUTHENTICATION_KEY],
-                $config[Keys::X_BACKTORY_OBJECT_STORAGE_ID]
+                $config[Keys::X_BACKTORY_STORAGE_ID]
             );
 
             if (isset($config[Keys::DOMAIN])) {

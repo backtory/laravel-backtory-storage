@@ -25,7 +25,7 @@ Add a new disk to your `filesystems.php` config
     'driver' => 'backtory',
     'X-Backtory-Authentication-Id' => '',
     'X-Backtory-Authentication-Key' => '',
-    'X-Backtory-Object-Storage-Id' => '',
+    'X-Backtory-Storage-Id' => '',
     'domain' => '' // [optional]
 ],
 ```
