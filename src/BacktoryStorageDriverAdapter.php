@@ -164,6 +164,10 @@ class BacktoryStorageDriverAdapter extends AbstractAdapter
      */
     public function deleteDir($dirname)
     {
+        if (substr($dirname, -1) != "/") {
+            $dirname .= "/";
+        }
+        
         return $this->delete($dirname);
     }
 
